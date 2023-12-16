@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -42,10 +41,29 @@
         <h1>Lights Website</h1>
     </header>
 
-    <main>
+    <!-- Homepage Section -->
+    <main id="homepage">
         <h2>Welcome to our Lights Website!</h2>
         <p>Explore the beauty of lights with our stunning collection.</p>
         <img src="light_image.jpg" alt="Beautiful Lights">
+    </main>
+
+    <!-- Contact Us Section -->
+    <main id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or feedback? Reach out to us!</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
     </main>
 
     <footer>
