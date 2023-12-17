@@ -1,3 +1,4 @@
+
 const stripePublicKey = 'your_stripe_public_key';
 const stripe = Stripe(stripePublicKey);
 const elements = stripe.elements();
@@ -47,3 +48,10 @@ form.addEventListener('submit', async function (event) {
         alert('Payment successful!');
     }
 });
+// Your existing script
+
+// New function to add products to the cart
+function addToCart(product, price) {
+    alert(`Added ${product} to cart. Price: Rs. ${price}`);
+    // Implement your cart logic here, e.g., update a shopping cart object or make an API call.
+}
