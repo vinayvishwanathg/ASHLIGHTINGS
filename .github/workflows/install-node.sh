@@ -9,3 +9,6 @@ sudo apt install nodejs npm
 # Verify installation
 node -v
 npm -v
+
+bash install-node.sh
+
