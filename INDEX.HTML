@@ -4,30 +4,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lights Website</title>
+    <title>Lights Shop</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
     <header>
-        <h1>Lights Website</h1>
+        <h1>Lights Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="#homepage">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!-- Homepage Section -->
     <main id="homepage">
-        <h2>Welcome to our Lights Website!</h2>
+        <h2>Welcome to Lights Shop!</h2>
+        <p>Explore our collection of LED lights, panel lights, LED strips, and downlights.</p>
         <div class="image-splash">
-            <img src="light_image_1.jpg" alt="Beautiful Lights 1">
-            <img src="light_image_2.jpg" alt="Beautiful Lights 2">
-            <img src="light_image_3.jpg" alt="Beautiful Lights 3">
+            <img src="led_light.jpg" alt="LED Light">
+            <img src="panel_light.jpg" alt="Panel Light">
+            <img src="led_strips.jpg" alt="LED Strips">
+            <img src="downlights.jpg" alt="Downlights">
         </div>
-        <p>Explore the beauty of lights with our stunning collection.</p>
+        <p>Shop now and brighten up your space!</p>
+    </main>
+
+    <!-- About Us Section -->
+    <main id="about">
+        <h2>About Us</h2>
+        <p>We are passionate about bringing quality lighting solutions to your home and business. Our mission is to provide energy-efficient and stylish lights for every space.</p>
+    </main>
+
+    <!-- Products Section -->
+    <main id="products">
+        <h2>Our Products</h2>
+        <div class="product">
+            <img src="led_light.jpg" alt="LED Light">
+            <h3>LED Light</h3>
+            <p class="price">Rs. 800</p>
+            <button onclick="addToCart('LED Light', 800)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="panel_light.jpg" alt="Panel Light">
+            <h3>Panel Light</h3>
+            <p class="price">Rs. 1200</p>
+            <button onclick="addToCart('Panel Light', 1200)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="led_strips.jpg" alt="LED Strips">
+            <h3>LED Strips</h3>
+            <p class="price">Rs. 1000</p>
+            <button onclick="addToCart('LED Strips', 1000)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="downlights.jpg" alt="Downlights">
+            <h3>Downlights</h3>
+            <p class="price">Rs. 1500</p>
+            <button onclick="addToCart('Downlights', 1500)">Add to Cart</button>
+        </div>
     </main>
 
     <!-- Contact Us Section -->
     <main id="contact">
         <h2>Contact Us</h2>
         <p>Have questions or feedback? Reach out to us!</p>
+        <p>Contact: +918095456800</p>
         <form>
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
@@ -43,8 +92,10 @@
     </main>
 
     <footer>
-        <p>&copy; 2023 Lights Website. All rights reserved.</p>
+        <p>&copy; 2023 Lights Shop. All rights reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
