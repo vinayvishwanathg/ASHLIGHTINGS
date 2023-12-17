@@ -1,46 +1,25 @@
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
-    margin: 0;
-    padding: 0;
+/* Your existing styles */
+
+/* Additional styles for the product images and buttons */
+.product {
+    max-width: 300px;
+    margin: 20px;
     text-align: center;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1em;
-}
-/* Add this to style.css */
-.image-splash {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-}
-
-.image-splash img {
-    max-width: 30%;
+.product img {
+    max-width: 100%;
     height: auto;
     border-radius: 8px;
+    margin-bottom: 10px;
 }
 
-
-main {
-    padding: 2em;
+.price {
+    font-weight: bold;
+    color: #333;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 1em;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-/* Button Style */
-button, input[type="submit"] {
+button {
     background-color: #333;
     color: #fff;
     padding: 10px 20px;
@@ -51,33 +30,6 @@ button, input[type="submit"] {
     transition: background-color 0.3s ease;
 }
 
-button:hover, input[type="submit"]:hover {
+button:hover {
     background-color: #555;
 }
-
-/* Form Styles */
-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    margin: 0 auto;
-}
-
-label {
-    margin-top: 10px;
-}
-
-input, textarea {
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-/* Image Style */
-img {
-    max-width: 100%;
-    height: auto;
-}
-
