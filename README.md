@@ -38,4 +38,3 @@ Ready to light up your space with Illuminato Innovations? Connect with us today.
 
 --- 
 
-Feel free to adjust the content based on your specific needs or preferences!
